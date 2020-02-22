@@ -7,7 +7,7 @@
 }
 
 .bg-secondary-light {
-    background-color: #F3E4D1;
+    background-color: rgba(247, 239, 226, .8);
 }
 body {
     background: url(puidumuster.svg);
@@ -104,3 +104,8 @@ ma {
     font-size: 1.375rem;
     color: #6F2D15;
 }
+
+li {
+    font-size: 1.125rem;
+    color:  #6F2D15;
+    margin-bottom: 4px;
