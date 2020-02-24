@@ -10,10 +10,11 @@
     background-color: rgba(247, 239, 226, .8);
 }
 body {
-    background: url(puidumuster.svg);
-    background-color: #F3E4D1;
+    xbackground: url(puidumuster.svg);
     background-repeat: repeat;
     background-size: auto;
+    background-color: #F3E4D1;  /* fallback for old browsers */
+    background: linear-gradient(to bottom, #F3E4D1, #F7EFE2);  
     height: 100vh;
     font-family: 'Merriweather Sans', sans-serif;
 }
@@ -69,9 +70,10 @@ body {
 main {
     position: relative;
     height: 100%;
+    background: url(puidumuster.svg);
 }
 
-ma {
+/* ma { see variant töötab omaette nõnda, et küpsis on õiges kohas */
     height: 100%;
     background: url(kypsis_S.png);
     background-position: right bottom;
@@ -90,14 +92,14 @@ ma {
 }
 
 .card-header button::after {
-    content: "A";
+    content: "\22C0";
     position: absolute;
     right: 10px;
     top: 20px;
 }
 
 .card-header button.collapsed::after {
-    content: "<";
+    content: "\22C1";
 }
 
 .subtitle {
