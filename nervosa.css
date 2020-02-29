@@ -10,7 +10,7 @@
     background-color: rgba(247, 239, 226, .8);
 }
 body {
-    xbackground: url(puidumuster.svg);
+    background: url(puidumuster.svg);
     background-repeat: repeat;
     background-size: auto;
     background-color: #F3E4D1;  /* fallback for old browsers */
@@ -118,7 +118,10 @@ xxx.card-header button.collapsed::after {
     color: #6F2D15;
 }
 
-li {
+li, li a {
     font-size: 1.125rem;
     color:  #6F2D15;
     margin-bottom: 4px;
+ }
+
+ 
