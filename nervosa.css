@@ -16,7 +16,7 @@ body {
     background-color: #F3E4D1;  /* fallback for old browsers */
     background: linear-gradient(to bottom, #F3E4D1, #F7EFE2);  
     height: 100vh;
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .label-sm {
@@ -26,6 +26,7 @@ body {
 
 .btn {
     min-width: 180px;
+    xmax-width: 400px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -124,4 +125,9 @@ li, li a {
     margin-bottom: 4px;
  }
 
+ h1 {
+    font-family: 'Caveat', Georgia, 'Times New Roman', Times, serif;
+    color: #6F2D15;
+    text-align: center;
+ }
  
