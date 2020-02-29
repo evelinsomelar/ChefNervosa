@@ -125,9 +125,16 @@ li, li a {
     margin-bottom: 4px;
  }
 
- h1 {
+ h1, h2 {
     font-family: 'Caveat', Georgia, 'Times New Roman', Times, serif;
     color: #6F2D15;
     text-align: center;
+ }
+
+ h2 {
+    color: #fff;
+    margin-right: auto;
+    font-size: 1.4rem;
+    padding-top: 8px;
  }
  
