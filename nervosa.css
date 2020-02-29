@@ -51,6 +51,12 @@ body {
     border: #5BC0A8;
 }
 
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show>.btn-primary.dropdown-toggle, .btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #C07E5B;
+    border-color: #6F2D15;
+}
+
 .keskel {
     justify-content: center;
     margin-top: 1rem;
@@ -92,14 +98,18 @@ main {
 }
 
 .card-header button::after {
-    content: "<";
+    content: url("ikoon/nool-alla-menyy.svg");
     position: absolute;
     right: 10px;
     top: 20px;
 }
 
-.card-header button.collapsed::after {
-    content: "\22C1";
+xxx.card-header button.collapsed::after {
+    content: "<";
+    display:inline-block;
+    width:18px;
+    height:16px;
+    margin:4px 8px 0 10px;
 }
 
 .subtitle {
