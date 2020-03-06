@@ -10,14 +10,44 @@
     background-color: rgba(247, 239, 226, .8);
 }
 body {
-    background: url(puidumuster.svg);
-    background-repeat: repeat;
-    background-size: auto;
-    background-color: #F3E4D1;  /* fallback for old browsers */
-    background: linear-gradient(to bottom, #F3E4D1, #F7EFE2);  
     height: 100vh;
     font-family: 'Source Sans Pro', sans-serif;
+    background-color: #F3E4D1;  /* fallback for old browsers */
+    background: linear-gradient(to bottom, #F3E4D1, #F7EFE2);  
 }
+
+/* xmain {
+    xxx;  
+} */
+
+.intro {
+    position: relative;
+    height: 100%;
+    background: url(puidumuster.svg);
+}
+
+.tegemine {
+    background: linear-gradient(to bottom, #C07E5B, #6F2D15);
+}
+
+.aken {
+    background-color:#F7EFE2;
+    padding: 8px;
+}
+
+.valge {
+    background-color:#fff;
+    border-top: 2pt solid  #6F2D15;
+}
+
+/* ma { see variant töötab omaette nõnda, et küpsis on õiges kohas */
+/*     height: 100%;
+    background: url(kypsis_S.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+} */
+
 
 .label-sm {
     font-size: .8em;
@@ -26,7 +56,7 @@ body {
 
 .btn {
     min-width: 180px;
-    xmax-width: 400px;
+    /* max-width: 400px; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -72,20 +102,6 @@ body {
     right: -30px;
     height: 100px;
     width: 360px;
-}
-
-main {
-    position: relative;
-    height: 100%;
-    background: url(puidumuster.svg);
-}
-
-/* ma { see variant töötab omaette nõnda, et küpsis on õiges kohas */
-    height: 100%;
-    background: url(kypsis_S.png);
-    background-position: right bottom;
-    background-repeat: no-repeat;
-
 }
 
 .card {
@@ -138,3 +154,24 @@ li, li a {
     padding-top: 8px;
  }
  
+ h5 {
+     font-size: 1em;
+ }
+
+ hr {
+    height: 4px;
+    border-top:1px dashed #6F2D15;
+    border-bottom: 1px solid #6F2D15;
+ }
+
+ p {
+     line-height: 1.5em;
+     margin-bottom: 1em;
+ }
+ .nupp-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ .nupp-myts {
+    background-image: url("/ikoon/myts.svg");
+}
