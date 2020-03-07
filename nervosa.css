@@ -62,8 +62,7 @@ body {
 @media only screen and (max-width: 768px) {
       .btn-primary, .btn-outline-primary {
           display: block;
-          width: 100%;
-        }
+          width: 100%;        }
     }
 
 .btn-primary{
@@ -168,10 +167,16 @@ li, li a {
      line-height: 1.5em;
      margin-bottom: 1em;
  }
+
  .nupp-icon {
     background-size: contain;
     background-repeat: no-repeat;
 }
  .nupp-myts {
     background-image: url("/ikoon/myts.svg");
+    z-index: 99;
+}
+
+.btn-outline-primary .nupp-icon path {
+    fill: #4B9E8A;
 }
