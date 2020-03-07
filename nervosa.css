@@ -16,9 +16,18 @@ body {
     background: linear-gradient(to bottom, #F3E4D1, #F7EFE2);  
 }
 
-/* xmain {
-    xxx;  
-} */
+.carousel {
+    font-size: 1.6em;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 40px;
+    height: 60vh;
+    background-color: blueviolet;
+  }
+
+  .carousel-control-next-icon {
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ccc' …3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e);
+}
 
 .intro {
     position: relative;
