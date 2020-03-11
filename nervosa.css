@@ -189,6 +189,20 @@ li, li a {
      margin-bottom: 1em;
  }
 
+ .btn-circle.btn-xl {
+    height: 128px;
+    padding: 10px 16px;
+    border-radius: 50%;
+    font-size: 24px;
+    line-height: 1.33;
+    background-image: url("/ikoon/thumbs-up.svg");
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+}
+
+
 /*  .nupp-icon {
     background-size: contain;
     background-repeat: no-repeat;
