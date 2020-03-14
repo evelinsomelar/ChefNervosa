@@ -121,29 +121,40 @@
             <hr>
           </div>
           <!--valmistusjuhend-->
-          <div class="col-12 col-md-6 mt-4">
-            <div>
-              <p>Siirupi, suhkru, või ja soola segad kokku ja ajad keema.</p>
+          <div class="col-12 col-md-6 mt-4" id="steps">
+            <div class="step">
+              <div>
+                <p>Siirupi, suhkru, või ja soola segad kokku ja ajad keema. </p>
+              </div>
             </div>
-            <div>
-              <p>Tõstad tulelt, lisad kaneeli, nelgi, kardemoni ja muskaadi (segada on hea selle metallist asjaga,
-                millega
-                kartuleid pudru jaoks purustad).</p>
+            <div class="step">
+              <div>
+                <p>Tõstad tulelt, lisad kaneeli, nelgi, kardemoni ja muskaadi (segada on hea selle metallist asjaga,
+                  millega kartuleid pudru jaoks purustad).</p>
+              </div>
             </div>
-            <div>
-              <p>Jahu segad küpsetuspulbriga. </p>
+            <div class="step">
+              <div>
+                <p>Jahu segad küpsetuspulbriga.</p>
+              </div>
             </div>
-            <div>
-              <p>Lisad siirupile tasapisi, iga koguse segad korralikult läbi (soovitan abiks võtta tugevamat sorti
-                segaja).</p>
+            <div class="step">
+              <div>
+                <p>Lisad siirupile tasapisi, iga koguse segad korralikult läbi (soovitan abiks võtta tugevamat sorti
+                  segaja).</p>
+              </div>
             </div>
-            <div>
-              <p>Kõige viimasena (kui see kõik on juba veidi jahtunud ka) lisad ühekaupa munad - iga muna segad
-                korralikult sisse. </p>
+            <div class="step">
+              <div>
+                <p>Kõige viimasena (kui see kõik on juba veidi jahtunud ka) lisad ühekaupa munad - iga muna segad
+                  korralikult sisse. </p>
+              </div>
             </div>
-            <div>
-              <p>Siis on valmis. Hea on kui seisab vähemalt 2 päeva, parem nädal. Ja enne küpsetamist nätsutad ja mudid
-                korralikult veel läbi ka. </p>
+            <div class="step">
+              <div>
+                <p>Siis on valmis. Hea on kui seisab vähemalt 2 päeva, parem nädal. Ja enne küpsetamist nätsutad ja
+                  mudid korralikult veel läbi ka. </p>
+              </div>
             </div>
           </div>
         </div>
@@ -159,7 +170,7 @@
       </div>
 
       <div class="row">
-        <button type="submit" class="btn btn-outline-primary ml-auto nupp-icon nupp-myts">Tee poenimekiri</button>
+        <button type="submit" class="btn btn-outline-primary ml-auto nupp-icon nupp-list">Tee poenimekiri</button>
       </div>
     </div>
 
@@ -177,7 +188,7 @@
             </button>
           </div>
           <div class="modal-body">
-  <!--karussell-->
+            <!--karussell-->
             <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="false">
               <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -188,41 +199,8 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
               </ol>
               <!--slaidid-->
-              <div class="carousel-inner text-center px-5 my-auto">
-                <div class="carousel-item active">
-                  <div>
-                    <p>Siirupi, suhkru, või ja soola segad kokku ja ajad keema. </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div>
-                    <p>Tõstad tulelt, lisad kaneeli, nelgi, kardemoni ja muskaadi (segada on hea selle metallist asjaga,
-                      millega kartuleid pudru jaoks purustad).</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div>
-                    <p>Jahu segad küpsetuspulbriga.</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div>
-                    <p>Lisad siirupile tasapisi, iga koguse segad korralikult läbi (soovitan abiks võtta tugevamat sorti
-                      segaja).</p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div>
-                    <p>Kõige viimasena (kui see kõik on juba veidi jahtunud ka) lisad ühekaupa munad - iga muna segad
-                      korralikult sisse. </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <div>
-                    <p>Siis on valmis. Hea on kui seisab vähemalt 2 päeva, parem nädal. Ja enne küpsetamist nätsutad ja
-                      mudid korralikult veel läbi ka. </p>
-                  </div>
-                </div>
+              <div class="carousel-inner text-center px-5 my-auto" id="stepper">
+                <!--kaval javascript tegutseb-->
               </div>
               <!--edasi-tagasi nupud-->
               <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -233,15 +211,15 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-  <!--Alumine suur nutpp-->
+              <!--Alumine suur nutpp-->
             </div>
             <!-- <button type="button" class="btn btn-circle btn-xl ml-auto mt-2" data-slide="next">Edasi</button> -->
             <p class=text-center>
-            <a class="btn btn-circle btn-xl active" href="#carouselExampleIndicators" role="button" data-slide="next">
-            </a>
+              <a class="btn btn-circle btn-xl active" href="#carouselExampleIndicators" role="button" data-slide="next">
+              </a>
             </p>
           </div>
-<!--modal jätkub-->
+          <!--modal jätkub-->
           <div class="modal-footer">
           </div>
         </div>
@@ -261,6 +239,7 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <script src="app.js"></script>
 </body>
 
 </html>
