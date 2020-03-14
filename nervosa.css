@@ -36,9 +36,9 @@ body {
    background-color: #C07E5B;
    }
 
-.carousel p {
-    font-size: 1.125em;
-    line-height: 1.4em;
+.carousel p { /* õpetus karusseli üeal*/
+    font-size: 1.1em;
+    line-height: 1.2em;
     color: #6F2D15;
 }
 
@@ -52,12 +52,12 @@ body {
     background: linear-gradient(to bottom, #C07E5B, #6F2D15);
 }
 
-.aken {
+.aken { /* see on tegemise ekraani beezh aken ja kogus */
     background-color:#F7EFE2;
     padding: 8px;
 }
 
-.valge {
+.valge { /* see on tegemise ekraani valge alus */
     background-color:#fff;
     border-top: 2pt solid  #6F2D15;
 }
@@ -189,29 +189,34 @@ li, li a {
      margin-bottom: 1em;
  }
 
- .btn-circle.btn-xl {
+ .btn-circle.btn-xl { /* Suur ümmargune nupp */
+    background-color: #4B9E8A;
+    border: 1px solid  #4B9E8A;
+    color: #fff;
     height: 128px;
+    min-width: 128px;
     padding: 10px 16px;
     border-radius: 50%;
     font-size: 24px;
     line-height: 1.33;
-    background-image: url("/ikoon/thumbs-up.svg");
-    background-size: 40px 40px;
+    background-image: url("./ikoon/thumbs-up.svg");
+    background-size: 64px 64px;
     background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
+    background-position: center;
+    /* background-size: contain; */
 }
 
 
-/*  .nupp-icon {
-    background-size: contain;
+.nupp-icon {
+    background-size: 24px;
     background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: center;
 }
  .nupp-myts {
-    background-image: url("/ikoon/myts.svg");
-    z-index: 99;
+    background-image: url("./ikoon/myts.svg");
 }
-
+/*
 .btn-outline-primary .nupp-icon path {
     fill: #4B9E8A;
 } */
