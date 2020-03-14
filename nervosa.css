@@ -52,12 +52,12 @@ body {
     background: linear-gradient(to bottom, #C07E5B, #6F2D15);
 }
 
-.aken {
+.aken { /* see on tegemise ekraani beezh aken ja kogus */
     background-color:#F7EFE2;
     padding: 8px;
 }
 
-.valge {
+.valge { /* see on tegemise ekraani valge alus */
     background-color:#fff;
     border-top: 2pt solid  #6F2D15;
 }
@@ -190,16 +190,20 @@ li, li a {
  }
 
  .btn-circle.btn-xl {
+    background-color: #4B9E8A;
+    border: 1px solid  #4B9E8A;
+    color: #fff;
     height: 128px;
+    min-width: 128px;
     padding: 10px 16px;
     border-radius: 50%;
     font-size: 24px;
     line-height: 1.33;
-    background-image: url("/ikoon/thumbs-up.svg");
+    /* background-image: url("/ikoon/thumbs-up.svg");
     background-size: 40px 40px;
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: contain; */
 }
 
 
