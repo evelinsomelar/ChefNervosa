@@ -206,7 +206,6 @@ li, li a {
     /* background-size: contain; */
 }
 
-
 .nupp-icon {
     background-size: 24px;
     background-repeat: no-repeat;
@@ -220,7 +219,3 @@ li, li a {
 .nupp-list {
    background-image: url("./ikoon/poodi-dark.svg");
 }
-/*
-.btn-outline-primary .nupp-icon path {
-    fill: #4B9E8A;
-} */
