@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function () {
 
     $('#retsepti-sammud').on('show.bs.modal', function (event) {
 
@@ -13,5 +13,31 @@ $( document ).ready(function() {
 
     });
 
+    $('.custom-control-input:checkbox:checked').each(function () {
+        $(this).parent().parent().parent().addClass('hazmuch');
+    });
+
+    $('.custom-control-input').change(function () {
+        if (this.checked) {
+            console.log('check!');
+            $(this).parent().parent().parent().addClass('hazmuch');
+        } else {
+            console.log('uncheck...');
+            $(this).parent().parent().parent().removeClass('hazmuch');
+        }
+
+        var elem = $('tbody').find('tr').sort(sort_foodstuff);
+
+        //console.log(elem);
+        $('tbody').append(elem);
+
+    });
+
     // console.log( "ready!" );
 });
+
+function sort_foodstuff(a, b) {
+    //console.log(a.className);
+    //console.log(b.className);
+    return a.className < b.className ? -1 : 1;
+    }

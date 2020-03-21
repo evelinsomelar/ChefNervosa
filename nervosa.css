@@ -219,3 +219,7 @@ li, li a {
 .nupp-list {
    background-image: url("./ikoon/poodi-dark.svg");
 }
+
+tr.hazmuch {
+    background-color: #F7EFE2;
+  }
