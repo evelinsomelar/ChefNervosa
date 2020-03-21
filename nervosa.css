@@ -220,6 +220,10 @@ li, li a {
    background-image: url("./ikoon/poodi-dark.svg");
 }
 
-tr.hazmuch {
-    background-color: #F7EFE2;
-  }
+.hazmuch {
+    border-top: 2px solid  #6F2D15;
+    }
+
+.hazmuch ~ .hazmuch {
+    border-top: none;
+    }
