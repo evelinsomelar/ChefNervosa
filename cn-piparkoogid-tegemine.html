@@ -160,28 +160,37 @@
         </div>
       </div>
     </div>
+
     <!--nupud-->
     <div class="container">
       <div class="row justify-content-end">
-        <!-- Button modali jaoks -->
+        <!-- Button tegemise modali jaoks -->
         <div class="col-12 text-right">
-          <button type="button" class="btn btn-primary my-3 nupp-icon nupp-myts " data-toggle="modal"
+          <button type="button" class="btn btn-primary my-3 nupp-icon nupp-myts" data-toggle="modal"
             data-target="#retsepti-sammud">
             Alusta
           </button>
         </div>
-        <!-- Button ponimekirja jaoks-->
+        <!--Button ostunimekirja modali jaoks-->
         <div class="col-12 text-right">
+          <button type="button" class="btn btn-outline-primary my-1 nupp-icon nupp-list" data-toggle="modal"
+            data-target="#ostunimekiri">
+            Tee poenimekiri
+          </button>
+        </div>
+
+        <!-- Button poenimekirja jaoks-->
+        <!--         <div class="col-12 text-right">
           <p><a role="button" class="btn btn-outline-primary nupp-icon nupp-list" href="cn-piparkoogid-ostma.html">Tee
               poenimekiri</a></p>
         </div>
+      </div> -->
       </div>
     </div>
-    </div>
 
-    <!--modal algab-->
+    <!--Modalid-->
 
-    <!-- Modal -->
+    <!-- Modal tegemine -->
     <div class="modal fade" id="retsepti-sammud" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
       aria-hidden="true">
       <div class="modal-dialog  modal-dialog-centered modal-xl modal-full" role="document">
@@ -230,8 +239,152 @@
         </div>
       </div>
     </div>
-  </main>
+    <!--Modal ostunimekiri-->
+    <div class="modal fade" id="ostunimekiri" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+      aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td class="text-right">2</td>
+                  <td>kl</td>
+                  <td class="text-right">siirupit</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck1">
+                      <label class="custom-control-label" for="customCheck1"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">1</td>
+                  <td>kl</td>
+                  <td class="text-right">suhkrut</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck2">
+                      <label class="custom-control-label" for="customCheck2"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">200</td>
+                  <td>g</td>
+                  <td class="text-right">võid või margariini</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck3">
+                      <label class="custom-control-label" for="customCheck3"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">4</td>
+                  <td>tk</td>
+                  <td class="text-right">muna</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck4">
+                      <label class="custom-control-label" for="customCheck4"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">7–8</td>
+                  <td>kl</td>
+                  <td class="text-right">jahu</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck5">
+                      <label class="custom-control-label" for="customCheck5"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">2</td>
+                  <td>tl</td>
+                  <td class="text-right">küpsetuspulbrit</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck6">
+                      <label class="custom-control-label" for="customCheck6"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">0,5</td>
+                  <td>tl</td>
+                  <td class="text-right">soola</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck7" xchecked>
+                      <label class="custom-control-label" for="customCheck7"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">1</td>
+                  <td>tl</td>
+                  <td class="text-right">kardemoni</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck8" xchecked>
+                      <label class="custom-control-label" for="customCheck8"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">1</td>
+                  <td>tl</td>
+                  <td class="text-right">nelki</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck9" xchecked>
+                      <label class="custom-control-label" for="customCheck9"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">2</td>
+                  <td>sl</td>
+                  <td class="text-right">kaneeli</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck10" xchecked>
+                      <label class="custom-control-label" for="customCheck10"></label>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="text-right">0,5</td>
+                  <td>tl</td>
+                  <td class="text-right">jahvatatud värsket muskaatpähklit</td>
+                  <td>
+                    <div class="custom-control custom-checkbox text-center">
+                      <input type="checkbox" class="custom-control-input" id="customCheck11">
+                      <label class="custom-control-label" for="customCheck11"></label>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary nupp-icon nupp-thumbs" data-dismiss="modal">Olemas!</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
+  </main>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

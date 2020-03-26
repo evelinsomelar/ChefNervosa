@@ -220,6 +220,10 @@ li, li a {
    background-image: url("./ikoon/poodi-dark.svg");
 }
 
+.nupp-thumbs {
+    background-image: url("./ikoon/thumbs-up.svg");
+ }
+
 .hazmuch {
     border-top: 2px solid  #6F2D15;
     }
