@@ -17,7 +17,7 @@ $(document).ready(function () {
         $(this).parent().parent().parent().addClass('hazmuch');
     });
 
-    $('.custom-control-input').change(function () {
+    $('#ostunimekiri .custom-control-input').change(function () {
         if (this.checked) {
             console.log('check!');
             $(this).parent().parent().parent().addClass('hazmuch');
@@ -26,25 +26,12 @@ $(document).ready(function () {
             $(this).parent().parent().parent().removeClass('hazmuch');
         }
 
-        var elem = $('tbody').find('tr').sort(sort_foodstuff);
+        var elem = $('#ostunimekiri tbody').find('tr').sort(sort_foodstuff);
 
         //console.log(elem);
-        $('tbody').append(elem);
+        $('#ostunimekiri tbody').append(elem);
 
     });
-
-    function alignModal(){
-        var modalDialog = $(this).find(".modal-dialog");
-        /* Applying the top margin on modal dialog to align it vertically center */
-        modalDialog.css("margin-top", Math.max(0, ($(window).height() - modalDialog.height()) / 2));
-    }
-    // Align modal when it is displayed
-    $(".modal").on("shown.bs.modal", alignModal);
-    
-    // Align modal when user resize the window
-    $(window).on("resize", function(){
-        $(".modal:visible").each(alignModal);
-    }); 
 
     // console.log( "ready!" );
 });
@@ -54,5 +41,3 @@ function sort_foodstuff(a, b) {
     //console.log(b.className);
     return a.className < b.className ? -1 : 1;
     }
-
-    // https://www.tutorialrepublic.com/faq/how-to-align-bootstrap-modal-vertically-center.php

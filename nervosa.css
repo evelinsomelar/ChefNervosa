@@ -212,6 +212,7 @@ li, li a {
     background-position-x: 95%;
     background-position-y: center;
 }
+
  .nupp-myts {
     background-image: url("./ikoon/myts.svg");
 }
@@ -222,6 +223,19 @@ li, li a {
 
 .nupp-thumbs {
     background-image: url("./ikoon/thumbs-up.svg");
+ }
+
+ .nupp-lisa {
+    background-image: url("./ikoon/lisa.svg");
+ }
+
+ .nupp-edasi {
+    background-image: url("./ikoon/edasi.svg");
+ }
+
+ .nupp-tagasi {
+    background-position-x: 5%;
+    background-image: url("./ikoon/tagasi.svg");
  }
 
 .hazmuch {
